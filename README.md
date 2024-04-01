@@ -1,59 +1,45 @@
-# Cryptocurrency Tracker
+# Криптовалютный Трекер
 
-Welcome to the Cryptocurrency Tracker - an application for monitoring the fluctuations in cryptocurrency prices in real-time.
+Добро пожаловать в Криптовалютный Трекер - приложение для мониторинга колебаний цен на криптовалюты в реальном времени.
 
-## Overview
+## Обзор
 
-Cryptocurrency Tracker is developed to provide users with up-to-date information regarding cryptocurrency market trends. The application fetches data from CoinMarketCap through their API, visualizes the price changes, and notifies the user of significant market movements.
+Криптовалютный Трекер создан для предоставления пользователям актуальной информации о тенденциях на рынке криптовалют. Приложение извлекает данные с CoinMarketCap через их API, визуализирует изменения в ценах и оповещает пользователя о значительных движениях рынка.
 
-## Features
+## Особенности
 
-- Real-time cryptocurrency price data fetching from CoinMarketCap API.
-- Visualization of price data using matplotlib for an intuitive understanding of market trends.
-- Notifications for significant price changes, ensuring you don't miss vital market movements.
-- Easy to set up and start tracking with a few simple steps.
+- Получение данных о ценах на криптовалюту в реальном времени с API CoinMarketCap.
+- Визуализация данных о ценах с помощью matplotlib для интуитивного понимания рыночных тенденций.
+- Оповещения о значительных изменениях цен, что не позволяет пропустить важные рыночные события.
+- Простая настройка и начало работы лишь за несколько шагов.
 
-## Installation
+## Установка
 
-Before you can run the application, some setup is required:
+Перед началом работы с приложением необходимо выполнить несколько шагов:
 
-1. Clone the repository to your local machine.
-2. Ensure that Python 3.x is installed on your system.
-3. Install the required dependencies with pip:
+1. Клонируйте репозиторий на ваш локальный компьютер.
+2. Убедитесь, что Python версии 3.x установлен в вашей системе.
+3. Установите требуемые зависимости с помощью pip:
 
-bash
 pip install -r requirements.txt
 
-4. Get an API key from [CoinMarketCap](https://coinmarketcap.com/api/) and set it in the 'config.py':
 
-python
-COINMARKETCAPAPIKEY = 'yourcoinmarketcapapikeyhere'
+4. Получите API ключ от CoinMarketCap и установите его в файле 'config.py':
 
-Please note: Do NOT share your API key publicly or upload it to public repositories. Always keep your keys confidential.
+COINMARKETCAP_API_KEY = 'your_coinmarketcap_api_key_here'
 
-## Usage
 
-After setting up, you can run the application using:
+Обратите внимание: НЕ делитесь вашим API ключом публично и не загружайте его в публичные репозитории. Всегда держите свои ключи в тайне.
 
-bash
+## Использование
+
+После настройки вы можете запустить приложение:
+
 python crypto_tracker.py
 
-The tracker will display current prices and you will be notified of any significant changes accordingly.
 
-## Contribution
+Трекер начнет отображать текущие цены, и вы будете уведомлены о любых значительных изменениях.
 
-Contributions are welcome! For bug reports or feature requests, please open an issue. If you wish to contribute to the codebase, please consider following the steps:
+## Лицензия
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Add or change the code.
-4. Write or adapt tests as needed.
-5. Push your changes and open a pull request.
-
-## License
-
-This project is provided under the MIT License. Refer to the 'LICENSE' file for the fulltext.
-
----
-
-*This README is a template and should be customized to fit your project's needs.*
+Проект распространяется под лицензией MIT. Ознакомьтесь с файлом 'LICENSE' для полного текста лицензии.
